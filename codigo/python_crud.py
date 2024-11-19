@@ -24,7 +24,7 @@ def crea_conexion():
     try:
         conn = mysql.connector.connect(
             host='127.0.0.1',
-            database='classicmodels2',
+            database='classicmodels',
             user='reemplazar con su usurio',
             password='reemplazar con la clave del usuario'
         )
